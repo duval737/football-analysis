@@ -1,6 +1,10 @@
+
 <?php
-// Fonction simple de connexion pour l'analyse Premier League
 function login($username, $password) {
-    return $username === "admin" && $password === "secure123";
+    if ($username === "admin" && $password === "1234") {
+        return "Connexion réussie";
+    } else {
+        return "Échec de connexion";
+    }
 }
 ?>
