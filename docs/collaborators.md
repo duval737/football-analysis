@@ -1,0 +1,3 @@
+- boby : Push (peut créer des branches et pousser ses commits)
+- magicien-root : Maintain (peut gérer le dépôt, valider PRs et merges)
+- duval737 : Owner / Admin (créateur du dépôt, contrôle complet)
