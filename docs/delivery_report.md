@@ -1,13 +1,37 @@
-## Protection de la branche main
 
-La branche main a été protégée avec les règles suivantes :
+# Delivery Report - Football Analysis Project
 
-- Pull Request obligatoire avant fusion
-- Interdiction des push directs
-- Historique linéaire requis
+## 1. Structure du dépôt
+- ✅ README.md présent et mis à jour
+- ✅ Arborescence minimale conforme
+- Preuve : [Lien vers GitHub](https://github.com/duval737/football-analysis)
 
-Un test de push direct sur la branche main a été effectué.
-GitHub a refusé le push avec le message indiquant que les modifications
-doivent passer par une Pull Request.
+## 2. Branches créées et documentées
+- ✅ main
+- ✅ feature/premier-league-analysis
+- ✅ feature/liga-analysis
+- ✅ feature/serie-a-analysis
+- ✅ feature/test-conflict
+- ✅ feature/test-protection
+- Preuve : `git branch -a` ou captures d'écran
 
-Cela confirme que la protection de la branche fonctionne correctement.
+## 3. Commits
+- ✅ Au moins 10 commits clairs
+- Preuve : `git log --oneline` ou captures d'écran GitHub
+
+## 4. Collaborateurs ajoutés et rôles définis
+- ✅ Collaborateurs : dev-junior-x (Push), data-scientist-lead (Maintain)
+- Preuve : `docs/collaborators.md` ou capture GitHub
+
+## 5. Protection de la branche main active
+- ✅ Protection branch main : PR required, status checks, branch up-to-date
+- Preuve : capture d’écran ou description GitHub rules
+
+## 6. PAT documenté
+- ✅ Fichier `docs/pat_instructions.md` présent
+- Preuve : procédure documentée sans token réel
+
+## 7. Tests (si présents)
+- ✅ Statut checks intégrés aux PRs
+- Preuve : capture GitHub Actions ou description dans PR
+
