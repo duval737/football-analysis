@@ -1,0 +1,12 @@
+# Auto-évaluation - Projet Football Analysis
+
+Au cours de ce projet, j'ai suivi une approche structurée pour gérer le développement des analyses de football sur trois ligues : Premier League, Liga et Serie A. J'ai choisi d'organiser le dépôt avec une arborescence claire comprenant des dossiers `data/`, `src/`, `EDA/`, `results/` et `docs/`, afin de séparer les données brutes, les scripts, les analyses exploratoires, les résultats et la documentation. Cette structure facilite le travail collaboratif et permet à chaque membre de l'équipe de travailler sur sa branche sans conflits.
+
+J'ai appliqué une stratégie de branches basée sur le GitHub Flow, créant des branches `feature/` pour chaque ligue et pour des tests spécifiques (comme `feature/test-conflict`). Chaque fonctionnalité a été développée sur sa propre branche, puis fusionnée dans `main` via des Pull Requests. Cela a permis d'assurer la traçabilité, de gérer les conflits de manière contrôlée et de maintenir une branche principale propre. J'ai documenté chaque modification avec des messages de commit clairs et descriptifs, ce qui facilite la lecture de l'historique des changements.
+
+Les principales difficultés rencontrées ont été liées aux **conflits de merge** et à la configuration des protections de branche sur GitHub. Par exemple, lorsque j'ai simulé un conflit sur le fichier `README.md`, il a fallu bien comprendre les marqueurs de conflit et la manière de résoudre proprement tout en conservant l'information des deux branches. De plus, la mise en place des règles de protection sur `main` a nécessité de comprendre les status checks et les exigences de PR, ce qui était nouveau pour moi.
+
+Pour l'avenir, je pourrais améliorer le projet en intégrant des tests automatisés pour valider les scripts d'analyse et en ajoutant une meilleure gestion des secrets pour les configurations sensibles. Je pourrais également documenter davantage le workflow Git pour les nouveaux membres de l'équipe, afin de réduire le risque d'erreurs lors de merges ou de création de branches.
+
+En résumé, ce projet m'a permis de consolider mes compétences en Git et GitHub, de pratiquer le travail collaboratif sur un dépôt partagé et de développer une approche méthodique pour organiser un projet d'analyse de données sportives. Les défis rencontrés ont renforcé ma compréhension des conflits, des protections de branche et des bonnes pratiques de documentation.
+
