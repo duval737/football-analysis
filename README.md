@@ -1,3 +1,2 @@
-# football-analysis
-Analyse des performances de la Premier League, Liga et Serie A
-je laisse mon commentaire là 
+# Football Analysis
+Version FEATURE pour test conflit
